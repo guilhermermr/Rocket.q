@@ -88,6 +88,18 @@ button.outlined, .button.outlined{
     border: .2rem solid var(--blue);
 }
 
+button.red, .button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey, .button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
+
+/** Header **/
+
 .content header{
     width: 80%;
     margin: 0 auto;
