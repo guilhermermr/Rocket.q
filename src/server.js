@@ -16,6 +16,8 @@ server.use(express.static("public"));
 // .../rocket.q/src/views
 server.set('views', path.join(__dirname, 'views'));
 
+server.use(express.urlencoded({extended: true}));
+
 // express usando o arquivo route
 server.use(route);
 
